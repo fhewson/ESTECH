@@ -1,0 +1,73 @@
+.App {
+  position: relative;
+ width: 100vw;
+ height: 100vh;
+ /* background-image: url("ESTechBackgroundImage.png") ;
+  background-repeat: no-repeat !important;
+  background-position-x: 100% !important;
+  background-position-y: 100% !important;
+  background-size: cover; */
+
+  /* padding: 242px 242px 242px 200px; */
+}
+.App-background{
+  width: 100%;
+  height: 100%;
+  z-index: -999; 
+  position: absolute;
+}
+.innerBlock{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* width: 100%; */
+  /* height: 65%; */
+  padding: 100px;
+  
+}
+.leftBlock{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.leftBlock-up{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 122px;
+  color: #FFFFFF;
+  width: 640px;
+  margin-bottom: 200px;
+}
+.leftBlock-down{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+  color: #FFFFFF;
+}
+.rightBlock{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.rightBlock-down{
+  display: flex;
+  flex-direction: column;
+}
+.rightBlock-up{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 76px;
+  color: #FFFFFF;
+}
+.rightBlock-down{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: #FFFFFF;
+}
