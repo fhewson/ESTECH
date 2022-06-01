@@ -2,7 +2,7 @@
   position: relative;
  width: 100vw;
  height: 100vh;
- overflow: hidden;
+ overflow-x: hidden;
 }
 .paral{
   background-image: url("https://images.unsplash.com/photo-1611502867268-9193c5c45f09?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1171&q=80") ;
@@ -14,10 +14,9 @@
 
 .App-background{
   width: 108%;
-  height: 108%;
   z-index: -999; 
   position: absolute;
-  overflow: hidden;
+  overflow-x: hidden;
   left: -20px;
   top: -20px;
   right: -20px;
@@ -28,29 +27,31 @@
   flex-direction: row;
   justify-content: space-between;
   padding-inline: 150px;
-  padding-block: 165px;
+  padding-block: 187px;
 }
 .leftBlock{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-right: 184px;
 }
 .leftBlock-up{
   font-style: normal;
-  font-weight: 600;
-  font-size: 85px;
-  line-height: 100px;
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 97px;
   color: #FFFFFF;
   width: 640px;
   margin-bottom: 200px;
-  letter-spacing: 0.05em;
+  font-family: 'Montserrat', sans-serif ;
 }
 .leftBlock-down{
   font-style: normal;
-  font-weight: 300;
-  font-size: 35px;
+  font-weight: 400;
+  font-size: 29px;
   line-height: 49px;
   color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif ;
 }
 .rightBlock{
   display: flex;
@@ -63,32 +64,34 @@
 }
 .rightBlock-up{
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 76px;
   color: #FFFFFF;
-  letter-spacing: 0.06em;
+  font-family: 'Montserrat', sans-serif ;
+  margin-bottom: -12px;
 }
 .rightBlock-down{
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 15px;
   color: #FFFFFF;
   text-align: center;
-  /* letter-spacing: 0.06em; */
+  font-family: 'Montserrat', sans-serif ;
 }
 @media(max-width: 900px) {
   .App {
-    position: relative;
+   position: relative;
    width: 100vw;
    height: 100vh;
-   overflow: visible;
+   overflow-x: hidden;
+   overflow-y: visible;
   }
   .App-background{
     width: 108%;
-    height: 108%;
     z-index: -999; 
     position: absolute;
-    overflow: visible;
+    overflow-x: hidden;
+    overflow-y: visible;
     left: -20px;
     top: -20px;
     right: -20px;

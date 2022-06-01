@@ -28,7 +28,7 @@ function App() {
            <div className="leftBlock-down">Come back soon.</div>
          </div>
          <div className="rightBlock">
-           <img src={ESLogo}  style={{width: 320, height: 320}}/>
+           <img src={ESLogo}  style={{width: 320, height: 320, marginTop: -7,marginBottom: 33}}/>
            <div >
              <div className="rightBlock-up">ESTECH</div>
              <div className="rightBlock-down">ELEMENT SOFTWARE TECHNOLOGIES</div>
